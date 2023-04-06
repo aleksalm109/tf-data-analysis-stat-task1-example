@@ -4,5 +4,5 @@ import numpy as np
 chat_id = 881258336 # Ваш chat ID, не меняйте название переменной
 
 def solution(x: np.array) -> float:
-    y = ln(x-643)
+    y = np.log(x-643)
     return y.mean() 
